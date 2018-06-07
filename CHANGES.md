@@ -8,6 +8,7 @@ New Features:
 * [#1761](https://github.com/ckeditor/ckeditor-dev/issues/1761): [Autolink](https://ckeditor.com/cke4/addon/autolink) plugin supports email links.
 * [#1703](https://github.com/ckeditor/ckeditor-dev/issues/1703): Introduced Mentions plugin providing autocompletion feature for usernames.
 * [#1746](https://github.com/ckeditor/ckeditor-dev/issues/1703): Introduce [Emoji](https://ckeditor.com/cke4/addon/emoji) plugin providing easy way to insert emoji in editor.
+* [#1679](https://github.com/ckeditor/ckeditor-dev/issues/1679): Introduced the [Split Button](https://ckeditor.com/cke4/addon/splitbutton plugin. Also added option to set initial style for button when creating it, and create button without icon.
 
 Fixed Issues:
 

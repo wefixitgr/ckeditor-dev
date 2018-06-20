@@ -6,6 +6,7 @@
 New Features:
 
 * [#1761](https://github.com/ckeditor/ckeditor-dev/issues/1761): [Autolink](https://ckeditor.com/cke4/addon/autolink) plugin supports email links.
+* [#1815](https://github.com/ckeditor/ckeditor-dev/issues/1815): [Autolink](https://ckeditor.com/cke4/addon/autolink) plugin supports typing link completion.
 * [#1751](https://github.com/ckeditor/ckeditor-dev/issues/1751): Introduced [Autocomplete](https://ckeditor.com/cke4/addon/autocomplete) plugin.
 * [#1703](https://github.com/ckeditor/ckeditor-dev/issues/1703): Introduced [Mentions](https://ckeditor.com/cke4/addon/mentions) plugin.
 

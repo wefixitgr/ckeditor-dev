@@ -1,6 +1,12 @@
 ﻿CKEditor 4 Changelog
 ====================
 
+## CKEditor 4.11
+
+New Features:
+
+* [#651](https://github.com/ckeditor/ckeditor-dev/issues/651): Text [pasted from Word](https://ckeditor.com/cke4/addon/pastefromword) preservers indentation in paragraphs.
+
 ## CKEditor 4.10
 
 New Features:

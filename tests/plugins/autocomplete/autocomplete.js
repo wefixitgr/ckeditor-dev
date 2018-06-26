@@ -75,29 +75,6 @@
 			ac.destroy();
 		},
 
-		// (#2031)
-		'test mouseover changes selected item': function() {
-			var editor = this.editors.standard,
-				ac = new CKEDITOR.plugins.autocomplete( editor, configDefinition );
-
-			this.editorBots.standard.setHtmlWithSelection( '' );
-
-			editor.editable().fire( 'keyup', new CKEDITOR.dom.event( {} ) );
-
-			var firstElement = ac.view.getItemById( 1 );
-			assertViewOpened( ac, true );
-			assert.isTrue( firstElement.hasClass( 'cke_autocomplete_selected' ) );
-
-			var target = ac.view.element.getLast();
-			ac.view.element.fire( 'mouseover', new CKEDITOR.dom.event( { target: target.$ } ) );
-
-			assertViewOpened( ac, true );
-			assert.isFalse( firstElement.hasClass( 'cke_autocomplete_selected' ) );
-			assert.isTrue( target.hasClass( 'cke_autocomplete_selected' ) );
-
-			ac.destroy();
-		},
-
 		// (#1984)
 		'test view is not opened after unmatch': function() {
 			var editor = this.editors.standard,

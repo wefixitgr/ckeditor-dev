@@ -502,7 +502,6 @@
 		 * @private
 		 */
 		onSelectedItemId: function( evt ) {
-			this.model.setItem( evt.data );
 			this.view.selectItem( evt.data );
 		},
 

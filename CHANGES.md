@@ -1,6 +1,12 @@
 ﻿CKEditor 4 Changelog
 ====================
 
+## CKEditor 4.11
+
+Fixed Issues:
+
+* [#2107](https://github.com/ckeditor/ckeditor-dev/issues/2107): Fixed: Holding and releasing mouse button is not inserting autocomplete item.
+
 ## CKEditor 4.10
 
 New Features:
